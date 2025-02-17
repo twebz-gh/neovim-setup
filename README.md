@@ -31,8 +31,10 @@ n^W |    set width to n,   no n for max width
 
 Change the base directory for a tab with `:tcd {dir}`.
 
-:mksession ~/.vim/session.vim
-$ nvim -S ~/.vim/session.vim
+" Save and load a session.
+:mks!
+$ nvim -S
+" Stores to `~/.vim/Session.vim`.  Store other sessions in diff files.
 
 
 todo:
